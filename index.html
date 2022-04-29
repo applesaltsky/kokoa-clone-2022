@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoatalk</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Welcome to Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -17,11 +18,27 @@
         </div>
         <div class="status-bar__column">
             <span>110%</span>
-            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-battery-full fa-2x"></i>
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+        <p class="welcome-header__text">
+            If you have a kokoa account, log in with your phone number or email address.
+        </p>
+    </header>
+
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number" />
+        <input type="password" placeholder="Password" />
+        <input type="submit" value="Log in" />
+        <input type="submit" value="Sign Up" />
+        <a href="a"> Find Kakao Account or Password</a>
+    </form>
+
     <script src="https://kit.fontawesome.com/91ee6d20b6.js" crossorigin="anonymous">
-    </script>
+    </script> <!-- script는 body의 가장 마지막에 meta 정보는 head에-->>
 </body>
 </html>
