@@ -32,10 +32,12 @@
             log in with your phone number or email address.
         </p>
     </header>
-
-    <form id="login-form">
-        <input type="text" placeholder="Email or phone number" />
-        <input type="password" placeholder="Password" />
+<!--form은 데이터를 주고 받을 수 있다.-->
+<!--action ; 어디로 데이터를 보낼 건가-->
+<!--method : post와 get이 있다. post는 정보를 서버로 보내, get은 url에 포함되어도 되는 정보를 주고 받아-->
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Email or phone number" />
+        <input name='password' type="password" placeholder="Password" />
         <input type="submit" value="Log In" />
         <input type="submit" value="Sign Up" />
         <a href="a"> Find Kakao Account or Password</a>
