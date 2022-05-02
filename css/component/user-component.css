@@ -43,24 +43,14 @@
     color: gray;
 }
 
+
 .user-component__column--chats {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:flex-end;
 }
 
-.user-component__column--chats span {
+.user-component__time {
     display: block;
-    margin: 2px 0px;
-    align-items: end;
-}
-
-.user-component__column--chats span:last-child {
-    text-align: center;
-    background-color: tomato;
-    color: white;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    left: 50px;
+    margin-bottom: 10px;
 }
