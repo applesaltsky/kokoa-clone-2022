@@ -7,10 +7,11 @@
 @import 'component/screen-header.css';
 @import 'component/user-component.css';
 @import 'component/badge.css';
+@import 'component/dot.css';
 /*screens*/
-@import 'screens/login.css';
 @import 'screens/friends.css';
 @import 'screens/chat.css';
+@import 'screens/find.css';
 
 body {
     padding-top:40px;

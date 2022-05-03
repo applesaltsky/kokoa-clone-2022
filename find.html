@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Chats Screen of Kokoa Clone</title>
+    <title>Find screen of Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -32,8 +32,7 @@
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chat.html">
-                    <span class="nav__notification">1</span>
-                    <i class="fa-solid fa-comment fa-2x">
+                    <i class="fa-regular fa-comment fa-2x">
                 </i></a>
             </li>
             <li class="nav__btn">
@@ -43,7 +42,7 @@
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="more.html">
-                    <span class="nav__link-note"> </span>
+                    <span class="nav__link-note dot"> </span>
                     <i class="fa-solid fa-ellipsis fa-2x">
                 </i></a>
             </li>
@@ -51,30 +50,65 @@
     </nav>
     
     <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
+        <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>            
-            <span><i class="fa-regular fa-comment fa-xl"></i></span>
-            <span><i class="fa-solid fa-music fa-lg"></i></span>
-            <span><i class="fa-solid fa-gear fa-lg"></i></span>
-
+            <span><i class="fa-solid fa-gear fa-lg"></i>
+                  <span class="screen-header__right dot"></span>
+            </span>
+           
         </div>
     </header>
 
 
     <main class="main-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="img\cocoatalk.JPG" class='user-component__avatar'/>
-                <div class="user-component__text">
-                    <h4 class="user-component__title">JangWooseok</h4>
-                    <h6 class="user-component__subtitle">this text whatever</h6>
+        <div class="find-icons">
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-qrcode "></i>
+                <span>QR Code</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-image-portrait "></i>
+                <span>Add by Contacts</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-user-plus "></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-regular fa-envelope "></i>
+                <span>Invite</span>
+            </div>
+        </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommended friends</h6>
+            <div>You have no recommended friends.</div>
+        </div>
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4 class="open-chat__title">Open Chat</h4>
+                <div>
+                    <span>Go to Openchat Home</span>
+                    <i class="fa-solid fa-chevron-right fa-xs"></i>
                 </div>
             </div>
-            <div class="user-component__column user-component__column--chats">
-                <span class="user-component__time">21:22</span>
-                <div class="badge">1</div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#BTS</h5>
+                    <h6 class="open-post__hashtag">#bts#army#friends</h6>
+                    <div class="open-post__members">
+                        <img src="img\picture.jpg" />
+                        <span class="open-post__members-count">802 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__members-status">Acvite</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    
+                </div>
+
             </div>
+
         </div>
     </main>
 
