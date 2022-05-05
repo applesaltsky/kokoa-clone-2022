@@ -1,4 +1,22 @@
 .dot {
+position: absolute;
+right:-10px;
+top: -10px;
+background-color: tomato;
+width: 8px;
+height: 8px;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-weight: 600;
+}
+
+.more_content_dot {
+    position: absolute;
+    right: 7vw;
+    top: -5px;
     background-color: tomato;
     width: 8px;
     height: 8px;

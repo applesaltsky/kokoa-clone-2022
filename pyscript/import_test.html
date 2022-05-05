@@ -1,0 +1,27 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+      <py-env>      
+- matplotlib
+
+      </py-env>
+    </head>
+  <body>
+    <py-script>
+import os
+
+print('start')
+print(os.getcwd())
+os.chdir('C:/Users/python')
+with open('/read_this_text2.txt','wt') as f:
+    f.write('hellod')
+    print(f.tell())
+    
+with open('/read_this_text2.txt','rt') as f:
+    text = f.read()
+
+print(text)
+    </py-script>
+  </body>
+</html>

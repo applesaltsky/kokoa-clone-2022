@@ -44,8 +44,15 @@
 .open-post {
     display: flex;
     justify-content: space-between;
+    padding:8px 0px;
+    border-bottom:var(--main-border);
 }
 
+.open-post__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .open-post__title {
     font-weight: 600;
     margin-bottom: 7px;
@@ -79,4 +86,30 @@
 
 .open-post__members-status {
     color: pink;
+}
+.open-post__column:last-child {
+    position: relative;
+}
+
+.open-post__column:last-child div {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 30%;
+    font-weight: 100;
+    padding: 7px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.open-post__column:last-child div span {
+    margin-left: 3px;
+}
+
+.open-post__column:last-child img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
 }

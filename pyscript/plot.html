@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pyscript practice</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+    gogogogo
+    <py-env>
+        - numpy
+        - pandas
+        - matplotlib
+    </py-env>
+    <py-script>
+import matplotlib.pyplot as plt
+import matplotlib.tri as tri
+import numpy as np
+
+fig1, ax1 = plt.subplots()
+ax1.set_aspect('equal')
+ax1.plot([1,2,3,4],[5,6,7,8],'bo')
+ax1.set_title('test_plot, that is awesome!')
+
+fig1
+    </py-script>
+    
+</body>
+</html>

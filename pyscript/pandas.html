@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pyscript practice</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+    gogogogo
+    <py-env>
+        - numpy
+        - pandas
+        - matplotlib
+    </py-env>
+    <py-script>
+import pandas as pd
+
+data = {'err_cd' : ['id-0603','lo-0050','kc-4024','kc-4024','lo-0050'],
+       'eqp':['ind201','ind123','ind123','ind123','ind201'],
+       'err_des' : ['chuck','tpgsl','toprc','toprc','tqgs2'],
+       'time':[20210915,20210915,20210916,20210917,20210914]}
+
+df = pd.DataFrame(data)
+
+df
+    </py-script>
+    
+</body>
+</html>
