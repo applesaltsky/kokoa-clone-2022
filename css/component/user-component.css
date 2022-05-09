@@ -1,3 +1,6 @@
+.user-component {
+    margin: 30px 0px;
+}
 .user-component,
 .user-component__column:first-child {
     display: flex;
@@ -53,4 +56,26 @@
 .user-component__time {
     display: block;
     margin-bottom: 10px;
+}
+.user-component__text--settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.user-component__column--settings {
+    font-size: 20px;
+}
+
+.user-component__new {
+    margin-left: 10px;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 50%;
 }
