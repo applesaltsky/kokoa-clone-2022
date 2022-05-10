@@ -16,3 +16,32 @@
 .alt-screen-header-alt__icons {
     font-size: 25px;
 }
+.alt-screen-header-alt__icons i {
+    margin-left: 20px;
+
+}
+
+.alt-screen-header__column {
+    width: 33%;
+}
+
+.alt-screen-header__column:first-child {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.alt-screen-header__column:nth-child(2) {
+    text-align: center;
+}
+
+.alt-screen-header__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body--chatting .alt-screen-header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #abc1d1;
+}
