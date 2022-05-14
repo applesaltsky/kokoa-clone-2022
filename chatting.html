@@ -23,31 +23,7 @@
         </div>
     </div>
 
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn">
-                <a class="nav__link" href="friends.html">
-                <i class="fa-regular fa-user fa-2x">
-                </i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="chat.html">
-                    <i class="fa-regular fa-comment fa-2x">
-                </i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="find.html">
-                    <i class="fa-solid fa-magnifying-glass fa-2x">
-                </i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                    <span class="nav__link-note dot"> </span>
-                    <i class="fa-solid fa-ellipsis fa-2x">
-                </i></a>
-            </li>
-        </ul>
-    </nav>
+
     
     <header class="alt-screen-header">
         <div class="alt-screen-header__column">
@@ -72,15 +48,35 @@
         <div class="message-row">
             <img src="img\picture.jpg">
             <div class="message-row__content">
-                <span class="message__author">Nicolas</span>
+                <span class="message__author">JWS</span>
                 <div class="message__info">
                     <span class="message__bubble">Hi!</span>
                     <span class="message__time">21:27</span>
                 </div>
             </div>
         </div>
-
+        <div class="message-row  message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">What's up?</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <form class="reply">
+        <div class="reply_column">
+            <i class="fa-regular fa-square-plus"></i>
+        </div>
+        <div class="reply_column">
+            <input type="text" placeholder="Write a message..."/>
+            <i class="fa-regular fa-face-smile"></i>
+            <button> 
+            <i class="fa-solid fa-arrow-up"></i>
+            </button>   
+        </div>
+    </form>
 
     <script src="https://kit.fontawesome.com/91ee6d20b6.js" crossorigin="anonymous">
     </script> <!-- script는 body의 가장 마지막에 meta 정보는 head에-->>
