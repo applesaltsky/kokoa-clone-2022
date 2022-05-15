@@ -113,3 +113,24 @@
     height: 90px;
     border-radius: 10px;
 }
+@keyframes heartBeat {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        color: tomato;
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: none;
+
+    }
+
+}
+
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}
